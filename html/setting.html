@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>设置</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html,body{
+			height: 100%;
+			background: #f0f0f0;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		li{
+			list-style: none;
+		}
+		/***************头部***********************/
+		#header{
+			width: 100%;
+			height: 6%;
+			background: #f0f0f0;
+			font: 40px webfont;
+			height: 100px;
+			line-height: 100px; 
+		}
+		#header img{
+			width: 7%;
+			height: 80%;
+			opacity: 0.3;
+			float: left;
+			margin-left: 5%;
+			margin-top: 1%;
+			margin-right: 5%;
+		}
+		/**************主体部分1******************/
+		#section1{
+			width: 100%;
+			height: 15%;
+			background: white;
+			font: 40px webfont;
+		}
+		.secdiv{
+			width: 100%;
+			height: 50%;
+			border-bottom: 1px solid darkgray;
+		}
+		.img1{
+			width: 10%;
+			height: 70%;
+			border-radius: 50%;
+			float: left;
+			margin-top: 1.5%;
+			margin-left: 4%;
+		}
+		.img3{
+			width: 10%;
+			height: 70%;
+			border-radius: 50%;
+			float: right;
+			margin-top: 1.5%;
+			margin-right: 4%;
+		}
+		.img2{
+			opacity: 0.4;
+			width: 70px;
+			height: 70px;
+			float: right;
+			margin-top: 2.5%;
+		}
+		/**************主体部分2******************/
+		#section2{
+			width: 100%;
+			height: 7%;
+			background: white;
+			font: 40px webfont;
+			margin-top: 2%;
+		}
+		.secdiv1{
+			width: 100%;
+			height: 100%;
+			border-bottom: 1px solid darkgray;
+		}
+		.secdiv1 .img2{
+			opacity: 0.4;
+			width: 70px;
+			height: 70px;
+			float: right;
+			margin-top: 2.5%;
+		}
+		/**************主体部分3******************/
+		#section3{
+			width: 100%;
+			height: 28%;
+			background: white;
+			font: 40px webfont;
+			margin-top: 2%;
+		}
+		.secdiv2{
+			width: 100%;
+			height: 25%;
+			border-bottom: 1px solid darkgray;
+		}
+		.secdiv2 .img2{
+			opacity: 0.4;
+			width: 70px;
+			height: 70px;
+			float: right;
+			margin-top: 2.5%;
+		}
+		/**************主体部分4******************/
+		#section4{
+			width: 100%;
+			height: 14%;
+			background: white;
+			font: 40px webfont;
+			margin-top: 2%;
+		}
+		.secdiv3{
+			width: 100%;
+			height: 50%;
+			border-bottom: 1px solid darkgray;
+		}
+		.secdiv3 .img2{
+			opacity: 0.4;
+			width: 70px;
+			height: 70px;
+			float: right;
+			margin-top: 2.5%;
+		}
+		/**************底部******************/
+		#footer{
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			height: 8%;
+			background: -webkit-linear-gradient(darkorange,orange);
+			 background: -o-linear-gradient(darkorange,orange);
+			 background: -moz-linear-gradient(darkorange,orange);
+			 background: linear-gradient(darkorange,orange);
+			 text-align: center;
+		}
+		#footer span{
+			font: 40px webfont;
+			color: white;
+			height: 140px;
+			line-height: 140px;
+		}
+	</style>
+</head>
+<body>
+	<header id="header">
+		<a href="#" onclick="javascript:history.back(-1);"><img src="../images/左箭头.png"></a>
+		<span>设置</span>
+	</header>
+	<section id="section1">
+		<a href="QRCode.html">
+			<div class="secdiv">
+				<img src="../images/右箭头.png" class="img2">
+				<img src="../images/1.jpg" class="img1">
+				<img src="../images/二维码.png" class="img3">
+				<span style="height: 70px;line-height: 70px;">&nbsp&nbsp&nbspCKT15</span><br>
+				<span style="font-size: 30px;color: darkgray;">&nbsp&nbsp&nbsp会员名：CKT15</span>		
+			</div>
+		</a>
+		<a href="toServer1.html">
+			<div class="secdiv">
+				<span style="height: 120px;line-height: 120px;">&nbsp&nbsp&nbsp我的收货地址</span>
+				<img src="../images/右箭头.png" class="img2">
+			</div>
+		</a>
+	</section>
+	<section id="section2">
+		<a href="toServer1.html">
+			<div class="secdiv1">
+				<img src="../images/右箭头.png" class="img2">
+				<span style="height: 120px;line-height: 120px;">&nbsp&nbsp&nbsp账户与安全</span>		
+			</div>
+		</a>
+	</section>
+	<section id="section3">
+		<a href="toServer1.html">
+			<div class="secdiv2">
+				<img src="../images/右箭头.png" class="img2">
+				<span style="height: 120px;line-height: 120px;">&nbsp&nbsp&nbsp地区设置</span>		
+			</div>
+		</a>
+		<a href="toServer1.html">
+			<div class="secdiv2">
+				<img src="../images/右箭头.png" class="img2">
+				<span style="height: 120px;line-height: 120px;">&nbsp&nbsp&nbsp音效与通知</span>		
+			</div>
+		</a>
+		<a href="toServer1.html">
+			<div class="secdiv2">
+				<img src="../images/右箭头.png" class="img2">
+				<span style="height: 120px;line-height: 120px;">&nbsp&nbsp&nbsp隐私</span>		
+			</div>
+		</a>
+		<a href="toServer1.html">
+			<div class="secdiv2">
+				<img src="../images/右箭头.png" class="img2">
+				<span style="height: 120px;line-height: 120px;">&nbsp&nbsp&nbsp通用</span>		
+			</div>
+		</a>
+	</section>
+	<section id="section4">
+		<a href="toServer1.html">
+			<div class="secdiv3">
+				<img src="../images/右箭头.png" class="img2">
+				<span style="height: 120px;line-height: 120px;">&nbsp&nbsp&nbsp问题反馈</span>		
+			</div>
+		</a>
+		<a href="toServer1.html">
+			<div class="secdiv3">
+				<img src="../images/右箭头.png" class="img2">
+				<span style="height: 120px;line-height: 120px;">&nbsp&nbsp&nbsp关于淘宝手机</span>		
+			</div>
+		</a>
+	</section>
+	<footer id="footer">
+		<a href=""><span>退出当前账户</span></a>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+/************公共部分********************/
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+/************主体部分********************/
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	font: 20px webfont;
+	height: 40px;
+	background-color: #ffdc35;
+}
+h3{
+	position: absolute;
+	font: 14px webfont;
+	top: 20px;
+	right: 2px;
+}
+h3 a{
+	text-decoration: none;
+}
+h3 a:hover{
+	text-decoration: underline;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	padding: 0;
+}
+table thead {
+	font: 15px "楷体";
+	background-color: darkgray;
+	color: white;
+}
+table.hide {
+	display: none;
+}
+
+table .ck {
+	width: 15px;
+	height: 15px;
+	margin-top: 1px;
+	margin-left: 5%;
+}
+table .name{
+	font: 13px 楷体;
+}
+
+table tbody input {
+	width: 20px;
+}
+.up,.down {
+	width: 15px;
+}
+.del{
+	width: 40px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px darkgray;
+	font:bolder 15px 楷体;
+}
+.box {
+	width: 99.5%;
+	height: 200px;
+	background-color:#fcfcfc;
+	border: 1px solid black;
+	font: bold 25px "webfont";
+	text-align: center;
+}
+.box.hide {
+	display: none;
+}
+
+/************尾部部分********************/
+#footer{
+	width: 100%;
+	height: 8.5%;
+	position: fixed;
+	background: white;
+    bottom: 0;
+	border-top: 0.05px solid black;
+}
+#footer img{
+	width: 23%;
+	height: 33%;
+	margin-top: 10%;
+}
+#footer a{
+	background: white;
+	margin: 0 !important;
+	padding: 0;
+	border-radius: 0;
+	box-shadow: 0 0 0 white;
+	float: left;
+	text-align: center;
+	width: 24.42%;
+	height: 100%;
+	color: black;
+	font: 13px "webfont";
+}

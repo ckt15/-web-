@@ -1,0 +1,168 @@
+@charset="UTF-8";
+*{
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		li{
+			list-style: none;
+		}
+		html,body,#page1{
+			width: 100%;
+			height: 100%;
+			background: #f0f0f0;
+		}
+		/**************头部部分*******************/
+		#header{
+			background: url("../images/我的图片.jpg") no-repeat;
+			background-size: 100% 100%;
+			opacity:0.7;
+			width: 100%;
+			height: 26%;
+		}
+		.ui-btn-left{
+			top: 22%;
+			left: 7%;
+		}
+		#image1{
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+		.ui-btn-right{
+			top: 17%;
+			left: 39%;
+		}
+		#image2{
+			width: 50px;
+			height: 40px;
+		}
+		#Username{
+			font: bolder 18px webfont;
+			color: white;
+			margin-left: 22%;
+		}
+		#jifen{
+			font: 10px webfont;
+			color: white;
+			margin-left: 22%;
+		}
+		#div2{
+			width: 100%;
+			height: 27%;
+			background: #ff8000;
+			position: absolute;
+			opacity:0.8;
+			left: 0;
+			bottom: 0;
+		}
+		#div2 .ul1 .li1{
+			float: left;
+			margin-left: 8%;
+			margin-top: 2.6%;
+		}
+		#div2 .ul1 .li2{
+			float: left;
+			margin-left: 20%;
+			margin-top: 2.6%;
+		}
+		#div2 .ul1 .li3{
+			float: right;
+			margin-right: 8%;
+			margin-top: 2.6%;
+		}
+		#div2 .ul1 li img{
+			width: 20px;
+			height: 20px;
+			vertical-align: middle;
+		}
+		#div2 .ul1 li span{
+			color: black;
+			font: 12px webfont;
+		}
+		/*************主体部分****************************/
+		#section{
+			width: 100%;
+			height: 50%;
+			margin-top: 1%;
+		}
+		#secdiv1{
+			width: 100%;
+			height: 14%;
+			border-bottom: 1px solid darkgray;
+			background: white;
+		}
+		#secdiv1 img{
+			width: 22px;
+			height: 22px;
+			float: left;
+			margin-left: 3%;
+			margin-top: 3%;
+			vertical-align: middle;
+		}
+		#secdiv2{
+			width: 100%;
+			height: 20%;
+			text-align: center;
+			border-bottom: 1px solid darkgray;
+			background: white;
+		}
+		#secdiv2 li{
+			float: left;
+			margin-left: 11.4%;
+			margin-top: 3%;
+		}
+		#secdiv2 span{
+			font: 15px webfont;
+			color: black;
+		}
+		#secdiv2 img{
+			width: 22px;
+			height: 22px;
+			vertical-align: middle;
+		}
+		
+		.asdiv{
+			width: 100%;
+			height: 14%;
+			border-bottom: 1px solid darkgray;
+			background: white;
+		}
+		.asdiv img{
+			width: 22px;
+			height: 22px;
+			float: left;
+			margin-left: 3%;
+			margin-top: 3%;
+			vertical-align: middle;
+		}
+		/*************尾部部分*********************/
+		#footer{
+			width: 100%;
+			height: 8.5%;
+			position: fixed;
+			background: white;
+			bottom: 0;
+			border-top: 0.05px solid black;
+		}
+		#footer img{
+			width: 23%;
+			height: 33%;
+			margin-top: 10%;
+		}
+		#footer a{
+			background: white;
+			margin: 0 !important;
+			padding: 0;
+			border-radius: 0;
+			box-shadow: 0 0 0 white;
+			float: left;
+			text-align: center;
+			width: 24.42%;
+			height: 100%;
+			color: black;
+			font: 13px "webfont";
+		}

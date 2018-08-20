@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<meta http-equiv="Access-Control-Allow-Origin" content="*">
+		<meta name="viewport" content="maximun-scale=1.0,minimun-scale=1.0,user-scalable=no,width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/shopping.css" />
+		<script type="text/javascript" src="../js/cookie.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>购物车</h1><hr>
+			<table id="table" border="1" cellspacing="0" cellpadding="0" class="hide">
+				<thead>
+					<tr>
+						<th><input type="checkbox" id="allCheck" class="ck">&nbsp;&nbsp;&nbsp;全选</th>
+						<th>名称</th>
+						<th>数量</th>
+						<th>单价</th>
+						<th>总价</th>
+						<th width="15%">操作</th>
+					</tr>
+				</thead>
+				<tbody id="tbody"></tbody>
+			</table>
+			<div class="box" id="box">购物车里没有任何商品</div>
+			<input type="submit" value="提交付款" onclick="window.location.href='toServer1.html'">
+			<input type="button" value="返回商品界面" onclick="window.location.href='list.html'">
+		</div>
+		<div data-role="footer" id="footer">
+			<a href="home.html" rel="external" data-inset="false"><img src="../images/首页.png"><br>首页</a>
+			<a href="list.html" rel="external" data-inset="false"><img src="../images/分类.png"><br>商品列表</a>
+			<a href="shopping.html" rel="external" data-inset="false"><img src="../images/购物车.png"><br>购物车</a>
+			<a href="personal.html" rel="external" data-inset="false"><img src="../images/个人中心.png"><br>我的</a>
+		</div>
+		<script src="../js/server.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/shopping.js"></script>
+	</body>
+
+</html>
