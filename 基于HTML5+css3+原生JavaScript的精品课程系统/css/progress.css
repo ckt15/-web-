@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	width: 100%;
+	height: 10%;
+	background: #3c3c3c;
+	color: white;
+}
+.tlt{
+	float: left;
+	font-family: 隶书;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 18px;
+	margin-right: 60px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.ul1>li{
+	float: left;
+}
+.ul1>li>a{
+	font-size: 18px;
+	font-family: 微软雅黑;
+	margin-left: 60px;
+	line-height: 80px;
+}
+.ul1>li>a:hover{
+	color: #53ff53;
+}
+.back{
+	margin-left: 530px;
+	line-height: 70px;
+	font-size: 15px;
+	font-family: 微软雅黑;
+}
+.back:hover{
+	text-decoration: underline;
+}
+
+section{
+	width: 100%;
+	height: 60%;
+	font-family: 微软雅黑;
+	font-size: 20px;
+}
+#div1{
+	width: 600px;
+	height: 400px;
+	border: 1px solid black;
+	margin-left:300px;
+	text-align: center;
+	margin-top: 30px;
+}
+#span{
+	font-family: 微软雅黑;
+	font-size: 18px;
+	height: 400px;
+	line-height: 400px;
+}
+#learn{
+	color: black;
+	font-family: 微软雅黑;
+	font-size: 18px;
+}
+#learn:hover{
+	color: #53ff53;
+}
+footer{
+	width: 100%;
+	height: 20%;
+	background: #3c3c3c;
+	position: fixed;
+	bottom: 0;
+	color: white;
+}
+.tlt2{
+	float: left;
+	font-family: 隶书;
+	font-size: 30px;
+	margin-left: 100px;
+	margin-top: 40px;
+	margin-right: 150px;
+	background: -webkit-gradient(linear, left top, right top, 
+		color-stop(.4, white), color-stop(.5, black), color-stop(.6, white));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: animate 1.5s infinite;
+}
+@-webkit-keyframes animate {
+    from {background-position: -100px;}
+    to {background-position: 100px;}
+}
+@keyframes animate {
+    from {background-position: -100px;}
+    to {background-position: 100px;}
+}
+.ul2{
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.ul2>li{
+	list-style: square inside;
+	margin-top: 10px;
+}
+.ul2>li>a{
+	font-size: 15px;
+	font-family: 微软雅黑;
+}
+.ul2>li>a:hover{
+	color: #53ff53;
+}
+.sp1{
+	font-family: 宋体;
+	font-size: 10px;
+	margin-left: 38%;
+}
+.sp2{
+	font-family: 宋体;
+	font-size: 10px;
+	margin-left: 45%;
+}

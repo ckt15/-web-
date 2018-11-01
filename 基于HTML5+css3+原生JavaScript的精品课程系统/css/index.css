@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: 100% 760px;
+}
+#log{
+	border: 1px darkgray solid;
+	border-radius: 10px;
+	opacity: 0.9;
+	color: white;
+	width: 290px;
+	height: 290px;
+	position: relative;
+	margin-left: 600px;
+	margin-top: 180px;
+	padding: 20px;
+	background: url(../images/bg.jpg) no-repeat;
+}
+.inp{
+	border: none;
+	border-bottom: 1px solid white;
+	width: 275px;
+	height: 23px;
+	color: white;
+}
+.inp1{
+	background: url(../images/账号.png) no-repeat;
+	background-size: 5px 5px;
+}
+.inp2{
+	background: url(../images/密码.png) no-repeat;
+	background-size: 5px 5px;
+}
+#tlt{
+	margin-left: 75px;
+	font-family: 微软雅黑;
+	font-size: 23px;
+}
+.a1{
+	 margin-left: 160px;
+	 font-size: 13px;
+	 font-family: 微软雅黑;
+	 color: white;
+	 text-decoration: none;
+}
+.a1:hover{
+	color: blue;
+}
+.a2{
+	 font-size: 13px;
+	 font-family: 微软雅黑;
+	 color: white;
+	 text-decoration: none;
+}
+.a2:hover{
+	color: blue;
+}
+.a3{
+	margin-left: 150px;
+	 font-size: 13px;
+	 font-family: 微软雅黑;
+	 color: white;
+}
+#sub{
+	width: 200px;
+	height: 30px;
+	background: #80ffff;
+	border: none;
+	margin-left: 50px;
+	border-radius: 5px;
+}

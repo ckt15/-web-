@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>用户中心</title>
+	<link rel="stylesheet" type="text/css" href="../css/personnal.css">
+</head>
+<body>
+	<header>
+		<span class="tlt">精品课程系统</span>
+		<ul class="ul1">
+			<li><a href="studentindex.html">课程章节</a></li>
+			<li><a href="progress.html">学习进度</a></li>
+			<li><a href="learnPlan.html">学习计划</a></li>
+			<li><a href="chat.html">讨论组</a></li>
+			<li><a href="personal.html">用户中心</a></li>
+		</ul>
+		<a href="#" class="back" onclick="logout()">退出登录</a>
+	</header>
+	<aside>
+		<div id="cebian">
+			<a>
+				<div class="div1" id="div4" onclick="Personal()">个人信息</div>
+			</a>
+			<a>
+				<div class="div1" id="div2" onclick="Couse()">需修课程</div>
+			</a>
+			<a>
+				<div class="div1" id="div3"  onclick="Mycollect()">我的收藏</div>
+			</a>
+			<a>
+				<div class="div1" id="div4" onclick="Mynote()">我的笔记</div>
+			</a>
+		</div>
+		<div id="collect" class="divSection">
+			<div class="kaitou">收藏记录</div>
+				<div class="Sdiv" id="div2">
+					<span class="colle">暂无收藏</span>
+				</div>
+		</div>
+		<div id="note" class="divSection">
+			<div class="kaitou">个人笔记</div>
+				<div class="Sdiv" id="div2">
+					<span class="colle">暂无笔记</span>
+				</div>
+		</div>
+		<div id="course" class="divSection">
+			<div class="kaitou">课程信息</div>
+			<div class="Sdiv" id="div2">
+				<table border="1" class="table">
+				  <tr>
+				    <th>学期学年</th>
+				    <th>课程名称</th>
+				    <th>学分</th>
+				    <th>课时</th>
+				  </tr>
+				  <tr>
+				    <td>2016-2017第一学期</td>
+				    <td>软件工程</td>
+				    <td>4</td>
+				    <td>48</td>
+				  </tr>
+				</table>
+			</div>
+		</div>
+		<div id="personal" class="divSection">
+			<div class="kaitou">个人信息</div>
+				<div class="Sdiv" id="div2">
+					<table border="1" class="table">
+						<tr>
+							<th>用户名</th>
+							<td>陈堪太</td>
+						</tr>
+						<tr>
+							<th>用户账号</th>
+							<td>userCKT</td>
+						</tr>
+						<tr>
+							<th>学校</th>
+							<td>广东工业大学</td>
+						</tr>
+						<tr>
+							<th>就读专业</th>
+							<td>软件工程</td>
+						</tr>
+						<tr>
+							<th>学生班级</th>
+							<td>15级软件（1）班</td>
+						</tr>
+					</table>
+					<a href="#"><input type="submit" value="修改" id="sub"></a>
+				</div>
+		</div>
+	</aside>
+	<footer>
+		<span class="tlt2">精品课程系统</span>
+		<ul class="ul2">
+			<li><a href="#">关注我们</a></li>
+			<li><a href="#">联系我们</a></li>
+			<li><a href="#">意见反馈</a></li>
+		</ul>
+		<ul class="ul2">
+			<li><a href="#">教师信息</a></li>
+			<li><a href="#">常见问题</a></li>
+			<li><a href="#">法律条款</a></li>
+		</ul>
+		<ul class="ul2">
+			<li><a href="#">加入我们</a></li>
+		</ul>
+		<br><br><br><br><br>
+		<span class="sp1">粤A1-20181010-10 | 京ICP备1010101号-2 | 京公网安备4441155424 
+</span><br>
+		<span class="sp2">©2018-2019 abcdefg.org</span>
+	</footer>
+	<script type="text/javascript" src="../js/personal.js"></script>
+</body>
+</html>

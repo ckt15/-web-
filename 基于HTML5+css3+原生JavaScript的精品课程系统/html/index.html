@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>精品课程系统--登录页面</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<script type="text/javascript" src="../js/cookie.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+	<div id="log">
+		<span id="tlt">精品课程系统</span><br><br>
+		<span style="font-size: 15px;font-family: 微软雅黑;">请选择登录角色：</span>
+		<select style="width: 150px;" id="vaSle" onchange="myChange()">
+			<option value="0">请选择您的角色</option>
+			<option value="1">学生</option>
+			<option value="2">讲师</option>
+			<option value="3">系统管理员</option>
+		</select><br><br>
+		<input type="text" placeholder="请输入账号" class="inp inp1" id="bank"><br><br>
+		<input type="password" placeholder="请输入密码" class="inp inp2" id="psw"><br><br>
+		<input type="checkbox" id="saveCookie">
+		<span style="font-size: 12px;font-family: 微软雅黑;">记住密码</span>
+		<a href="#" class="a1">忘记密码</a><br><br>
+		<a href="" id="toRole"><input type="submit" value="登录" id="sub"></a><br><br>
+		<span class="a3">还未有账号？</span>
+		<a href="registerST.html" class="a2">前往注册</a>
+	</div><br><br><br>
+	<span style="color: white;font-family: 微软雅黑;font-size: 13px;margin-left: 630px;">版权所有 广东工业大学软件工程  精品课程系统</span>
+	
+</body>
+</html>
