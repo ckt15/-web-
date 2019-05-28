@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>精品课程系统管理员页面</title>
+	<link rel="stylesheet" type="text/css" href="../css/adminindex.css">
+</head>
+<body>
+	<header>
+		<span class="tlt" style="font-family:隶书;display:inline-block;margin-left:100px;">精品课程系统--服务端系统</span>
+		<a href="#" class="back" onclick="logout()" style="display:inline-block;margin-left:900px;">退出登录</a>
+	</header>
+	<aside>
+		<div id="use1">
+			<img src="../images/d1.jpg" class="img1"><br>
+			<br><br>
+			<hr>
+			<ul class="use2">
+				<li class="li1" onclick="Myper()">
+					<a href=""><span>用户管理</span></a>
+					<img src="../images/右.png" class="img2">
+				</li>
+			</ul>
+		</div>
+	</aside>
+	<section>
+		<div id="ueser" class="divSection">
+				<div class="Sdiv" id="div2">
+					<h2>教师管理</h2><hr>
+					<ul>
+						<a href="../adminControlTeacher.jsp"><li>教师管理</li></a>
+					</ul>
+				</div>
+				<div class="Sdiv" id="div3">
+					<h2>学生管理</h2><hr>
+					<ul>
+						<a href="../adminControlStudent.jsp"><li>学生管理</li></a>
+					</ul>
+				</div>
+		</div>
+	</section>
+	<footer>
+		<span class="tlt2">精品课程系统</span>
+		<ul class="ul2">
+			<li><a href="#">关注我们</a></li>
+			<li><a href="#">联系我们</a></li>
+			<li><a href="#">意见反馈</a></li>
+		</ul>
+		<ul class="ul2">
+			<li><a href="#">教师信息</a></li>
+			<li><a href="#">常见问题</a></li>
+			<li><a href="#">法律条款</a></li>
+		</ul>
+		<ul class="ul2">
+			<li><a href="#">加入我们</a></li>
+		</ul>
+		<br><br><br><br><br>
+		<span class="sp1">粤A1-20181010-10 | 京ICP备1010101号-2 | 京公网安备4441155424 
+</span><br>
+		<span class="sp2">©2018-2019 abcdefg.org</span>
+	</footer>
+	<script type="text/javascript">
+		 function logout(){
+		    if (confirm("您确定要退出系统吗？")){
+		        top.location = "adminLogin.jsp";
+		       	return false;
+		    }	
+		}
+	</script>
+</body>
+</html>

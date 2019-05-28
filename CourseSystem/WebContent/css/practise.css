@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "PingFang SC", 微软雅黑, "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+    color: #1c1f21;
+}
+li{
+	list-style: none;
+}
+
+header{
+	width: 100%;
+	height: 10%;
+	background: #3c3c3c;
+	color: white;
+}
+.tlt{
+	float: left;
+	font-family: 隶书;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 18px;
+	margin-right: 60px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.ul1>li{
+	width: 120px;
+	height: 73px;
+	float: left;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	line-height: 73px;
+	display: inline-block;
+}
+.ul1>li>a:hover{
+	color: #53ff53;
+}
+.ul1>li:hover>ul{
+	display: block;
+}
+.a62:visited{
+	color: red;
+}
+.back{
+	position: absolute;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	right: 46px;
+	top: 28px;
+}
+.back:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+section{
+	width: 100%;
+	height: 60%;
+	font-family: 微软雅黑;
+	font-size: 20px;
+}
+#table{
+	width: 1000px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 0 0;
+}
+.daohang{
+	background-color: #3c3c3c;
+	color: white;
+	height: 60px;
+}
+.search{
+	background-color: #3c3c3c;
+	color: white;
+	height: 50px;
+}
+.inp{
+	width: 100px;
+	height: 25px;
+	border-radius: 3px;
+	border: 0px solid black;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+.inp2{
+	width: 100px;
+	height: 30px;
+	border-radius: 3px;
+	border: 0px solid black;
+	display: inline-block;
+	margin-bottom: 25px;
+	font: 15px 微软雅黑;
+}
+.inp2:hover{
+	background-color: black;
+	color: white;
+}
+.inp1{
+	margin-left: 20px;
+}
+.search select{
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+.content{
+	background-color: darkgray;
+	height: 50px;
+	font: bold 15px 微软雅黑;
+	cursor: pointer;
+}
+.content:hover{
+	background-color: #3c3c3c;
+	color: white;
+}
+.content1{
+	background-color: darkgray;
+	height: 50px;
+}
+.content1 input{
+	width: 100px;
+	height: 40px;
+	border: 0px solid black;
+	border-radius: 5px;
+	font: 17px 微软雅黑;
+	background: #3c3c3c;
+	color: white;
+}
+.content1 input:hover{
+	background: black;
+}
+#cebian{
+	position: fixed;
+	right: 3px;
+	top: 30%;
+	box-shadow: darkgray -3px 2px 2px 2px; 
+}
+.div1{
+	width: 50px;
+	height: 50px; 
+	border-bottom: 0.5px solid darkgray;
+}
+.cebian1{
+	width: 20px;
+	height: 20px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.sp{
+	display: none;
+}
+.div1:hover{
+	cursor: pointer;
+}
+.div1:hover>span{
+	display: block;
+	font: 12px 微软雅黑;
+	color: black;
+	margin-left: 13px;
+	margin-top: 13px;
+}
+.div1:hover>img{
+	display: none;
+}
+footer{
+	width: 100%;
+	height: 20%;
+	background: #3c3c3c;
+	color: white;
+	position: fixed;
+	bottom: 0px;
+}
+.tlt2{
+	float: left;
+	font-family: 隶书;
+	font-size: 30px;
+	margin-left: 100px;
+	margin-top: 40px;
+	margin-right: 150px;
+	background: -webkit-gradient(linear, left top, right top, 
+		color-stop(.4, white), color-stop(.5, black), color-stop(.6, white));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: animate 1.5s infinite;
+}
+@-webkit-keyframes animate {
+    from {background-position: -100px;}
+    to {background-position: 100px;}
+}
+@keyframes animate {
+    from {background-position: -100px;}
+    to {background-position: 100px;}
+}
+.ul2>li{
+	list-style: square inside;
+	margin-top: 50px;
+	margin-left: 25px;
+	float: left;
+}
+.ul2>li>a{
+	font-size: 15px;
+	font-family: 微软雅黑;
+}
+.ul2>li>a:hover{
+	color: #53ff53;
+}
+.sp1{
+	font-family: 宋体;
+	font-size: 10px;
+	margin-left: 38%;
+}
+.sp2{
+	font-family: 宋体;
+	font-size: 10px;
+	margin-left: 45%;
+}

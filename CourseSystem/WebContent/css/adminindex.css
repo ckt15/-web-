@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	width: 100%;
+	height: 10%;
+	background: #3c3c3c;
+	color: white;
+}
+.tlt{
+	float: left;
+	font-family: 隶书;
+	font-size: 30px;
+	margin-top: 18px;
+	margin-right: 60px;
+	background: -webkit-gradient(linear, left top, right top, 
+		color-stop(.4, white), color-stop(.5, black), color-stop(.6, white));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: animate 1.5s infinite;
+}
+@-webkit-keyframes animate {
+          from {background-position: -100px;}
+          to {background-position: 100px;}
+      }
+      @keyframes animate {
+          from {background-position: -100px;}
+          to {background-position: 100px;}
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.back{
+	line-height: 70px;
+	font-size: 15px;
+	font-family: 微软雅黑;
+}
+.back:hover{
+	text-decoration: underline;
+}
+aside{
+	width: 250px;
+	height: 400px;
+	position: absolute;
+	margin-top: 3%;
+	margin-left: 10%;
+	background-color: #dde4ea;
+}
+.use2 li a{
+	color: black;
+}
+.img1{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: 75px;
+	margin-top: 15px;
+}
+.img2{
+	width: 22px;
+	height: 22px;
+	margin-left: 100px;
+}
+.li1{
+	width: 250px;
+	height: 78px;
+	display: block;
+	font: 18px 微软雅黑;
+	text-align: center;
+	line-height: 78px;
+	cursor: pointer;
+}
+.li1:hover{
+	background: #b7c0ca;
+}
+.divSection{
+	width: 40%;
+	height: 50%;
+	margin-top: 3%;
+	margin-left: 28%;
+	text-align: center;
+	line-height: 55px;
+}
+.divSection a{
+	color: black;
+}
+.divSection a:hover{
+	color: #53ff53;
+}
+.Sdiv{
+	border: 1px solid darkgray;
+	width: 49.6%;
+	height: 99%;
+	float: left;
+}
+.Sdiv li{
+	font-size: 18px;
+	font-family: 微软雅黑;
+	list-style: square;
+	width: 150px;
+	margin-left: 80px;
+}
+#database{
+	display: none;
+}
+#system{
+	display: none;
+}
+footer{
+	width: 100%;
+	height: 20%;
+	background: #3c3c3c;
+	position: fixed;
+	bottom: 0;
+	color: white;
+}
+.tlt2{
+	float: left;
+	font-family: 隶书;
+	font-size: 30px;
+	margin-left: 100px;
+	margin-top: 40px;
+	margin-right: 150px;
+}
+.ul2{
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.ul2>li{
+	list-style: square inside;
+	margin-top: 10px;
+}
+.ul2>li>a{
+	font-size: 15px;
+	font-family: 微软雅黑;
+}
+.ul2>li>a:hover{
+	color: #53ff53;
+}
+.sp1{
+	font-family: 宋体;
+	font-size: 10px;
+	margin-left: 38%;
+}
+.sp2{
+	font-family: 宋体;
+	font-size: 10px;
+	margin-left: 45%;
+}

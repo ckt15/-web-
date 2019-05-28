@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>创建题目</title>
+	<link rel="stylesheet" type="text/css" href="../css/setPractise.css">
+</head>
+<body>
+	<header>
+		<span class="tlt" style="font-family:隶书;">精品课程系统--教师系统</span>
+		<ul class="ul1">
+			<li><a href="teacher.html">课程资料</a></li>
+			<li><a href="publish.html">发布课程</a></li>
+			<li><a href="../chatMake.jsp">社区问答</a></li>
+			<li><a href="setPractise.html" style="color:red;">创建题目</a></li>
+			<li><a href="../teacherPersonal.jsp">用户使用中心</a></li>
+		</ul>
+		<a href="#" class="back" onclick="logout()">退出登录</a>
+	</header>
+	<section>
+		<table id="table" border="0">
+			<tr class="daohang">
+				<td>&nbsp;&nbsp;&nbsp;当前题目</td>
+				<td>章节号</td>
+				<td>章节名</td>
+				<td>难度</td>
+				<td>题目类型</td>
+				<td>题目内容</td>
+			</tr>
+			<tr class="content">
+				<td>&nbsp;&nbsp;&nbsp;1</td>
+				<td>1</td>
+				<td>初识软件工程</td>
+				<td>1</td>
+				<td>选择题</td>
+				<td>了解软件工程概念</td>
+			</tr>
+			<tr class="content">
+				<td>&nbsp;&nbsp;&nbsp;2</td>
+				<td>2</td>
+				<td>软件过程</td>
+				<td>2</td>
+				<td>选择题</td>
+				<td>了解可行性分析</td>
+			</tr>
+			<tr class="content">
+				<td>&nbsp;&nbsp;&nbsp;3</td>
+				<td>3</td>
+				<td>编写高质量代码</td>
+				<td>3</td>
+				<td>选择题</td>
+				<td>了解需求分析</td>
+			</tr>
+			<tr class="content">
+				<td>&nbsp;&nbsp;&nbsp;4</td>
+				<td>4</td>
+				<td>单元测试</td>
+				<td>3</td>
+				<td>选择题</td>
+				<td>总体设计</td>
+			</tr>
+			<tr class="content">
+				<td>&nbsp;&nbsp;&nbsp;5</td>
+				<td>5</td>
+				<td>团队开发管理</td>
+				<td>2</td>
+				<td>选择题</td>
+				<td>学习详细设计</td>
+			</tr>
+			<tr class="content">
+				<td>&nbsp;&nbsp;&nbsp;6</td>
+				<td>6</td>
+				<td>需求分析</td>
+				<td>2</td>
+				<td>选择题</td>
+				<td>实现展示</td>
+			</tr>
+			<tr class="content1">
+				<td></td>
+				<td></td>
+				<td colspan="5">
+					<a href="../addQuestion.jsp"><input type="button" value="添加" style="display: inline-block;margin-left: 70px;"></a>
+					<a href="../updateQuestion.jsp"><input type="button" value="修改"></a>
+					<a href="../deleteQuestion.jsp"><input type="button" value="删除"></a>
+				</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</section>
+	<footer>
+		<span class="tlt2">精品课程系统</span>
+		<ul class="ul2">
+			<li><a href="#">关注我们</a></li>
+			<li><a href="#">联系我们</a></li>
+			<li><a href="#">意见反馈</a></li>
+		</ul>
+		<ul class="ul2">
+			<li><a href="#">教师信息</a></li>
+			<li><a href="#">常见问题</a></li>
+			<li><a href="#">法律条款</a></li>
+		</ul>
+		<ul class="ul2">
+			<li><a href="#">加入我们</a></li>
+		</ul>
+		<br><br><br><br><br>
+		<span class="sp1">粤A1-20181010-10 | 京ICP备1010101号-2 | 京公网安备4441155424 
+</span><br>
+		<span class="sp2">©2018-2019 abcdefg.org</span>
+	</footer>
+	<script type="text/javascript" src="../js/video.js"></script>
+	<script type="text/javascript">
+		var h1 = document.getElementById('h1');
+		var h2 = document.getElementById('h2');
+		var li =  document.getElementsByClassName('li');
+
+		for(var i = 0;i<li.length; i++){
+			li[i].onclick = function(){
+				h2.innerHTML = this.innerHTML;
+			}
+		}
+	</script>
+</body>
+</html>

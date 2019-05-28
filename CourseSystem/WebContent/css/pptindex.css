@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "PingFang SC", 微软雅黑, "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+    color: #1c1f21;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	height: 10%;
+	border-bottom: 1px solid black;
+}
+.back1{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	float: left;
+	display: inline;
+	margin-top: 1.2%;
+	margin-left: 20px;
+}
+#h3{
+	font: bold 17px 微软雅黑;
+	float: left;
+	margin-top: 1.4%;
+	margin-left: 80px;
+}
+#search{
+	width: 350px;
+	height: 42px;
+	background-color: #f3f5f6;
+	border-radius: 10px 0px 0px 10px;
+	border: 0px solid black;
+	margin-left: 30%;
+	margin-top: 1%;
+}
+#bbtn{
+	width: 70px;
+	height: 40px;
+	background-color: #C0C0C0;
+	border: 0px solid black;
+	border-radius: 0px 8px 8px 0px;
+}
+.back{
+	margin-left: 90px;
+	font: 20px 微软雅黑;
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	right: 70px;
+	top: 20px;
+}
+.back:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+section{
+	width: 100%;
+	height: 70%;
+}
+.a12:visited{
+	color: red;
+}
+.contain{
+	width: 640px;
+	margin: 0px 250px 0px 100px;
+	font-size: 14px;
+}
+#ppt{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 540px;
+	width: 940px;
+	border: 1px solid #78786f; 
+}
+#content{
+	background-color: #1c1f21;
+	position: relative;
+	width: 100%;
+}
+#mulu{
+	background: #1c1f21;
+	width: 280px;
+	height: 500px;
+	overflow-x: auto;
+	overflow-y: scroll;
+	position: absolute;
+	right: 60px;
+	top: 50px;
+}
+.li{
+	color: #d9dde1;
+	list-style: none;
+	font: 14px 微软雅黑;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.li:hover{
+	color: white;
+}
+h2{
+	color: white;
+	font: 15px 微软雅黑;
+	margin-top: 15px;
+}
+#nav{
+	width: 100px;
+	height: 600px;
+	background-color: #1c1f21; 
+	color: white;
+	float: left;
+	cursor: pointer;
+}
+.nav{
+	width: 100px;
+	height: 110px;
+	margin-top: 220px;
+	cursor: pointer;
+}
+.nav>img,.nav>span{
+	font: 20px 黑体;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.nav:hover{
+	background-color: 	#696969;
+}
+.nav img{
+	width: 30px;
+	height: 30px;
+}
